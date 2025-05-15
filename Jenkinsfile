@@ -11,7 +11,7 @@ pipeline {
         stage('Build Auth Service') {
             steps {
                 dir('auth-service1') {
-                    sh 'mvn clean package -DskipTests'
+                    bat 'mvn clean package -DskipTests'
                 }
             }
         }
@@ -19,7 +19,7 @@ pipeline {
         stage('Test Auth Service') {
             steps {
                 dir('auth-service1') {
-                    sh 'mvn test'
+                    bat 'mvn test'
                 }
             }
         }
@@ -27,7 +27,7 @@ pipeline {
         stage('Build CRE Service') {
             steps {
                 dir('cre-service') {
-                    sh 'mvn clean package -DskipTests'
+                    bat 'mvn clean package -DskipTests'
                 }
             }
         }
@@ -35,7 +35,7 @@ pipeline {
         stage('Test CRE Service') {
             steps {
                 dir('cre-service') {
-                    sh 'mvn test'
+                    bat 'mvn test'
                 }
             }
         }
@@ -43,8 +43,8 @@ pipeline {
         stage('Build Frontend') {
             steps {
                 dir('gestion-cre') {
-                    sh 'npm install'
-                    sh 'npm run build'
+                    bat 'npm install'
+                    bat 'npm run build'
                 }
             }
         }

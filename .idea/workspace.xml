@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84efce5-3c41-4918-97d4-b8b8f0208880" name="Changes" comment="commit du 12/05/2025 à 16h30">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cre-service" beforeDir="false" afterPath="$PROJECT_DIR$/cre-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cre-service/src/main/java/org/sid/creapp/services/CreFileGenerationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cre-service/src/main/java/org/sid/creapp/services/CreFileGenerationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins-docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +246,7 @@
       <workItem from="1747062238872" duration="1002000" />
       <workItem from="1747121134522" duration="1656000" />
       <workItem from="1747208317315" duration="5367000" />
-      <workItem from="1747228023262" duration="3221000" />
+      <workItem from="1747228023262" duration="3737000" />
     </task>
     <task id="LOCAL-00001" summary="commit du 23/04/2025 à 11h30">
       <option name="closed" value="true" />
